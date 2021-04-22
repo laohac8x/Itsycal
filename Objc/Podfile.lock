@@ -1,0 +1,20 @@
+PODS:
+  - MASShortcut (2.4.0)
+  - Sparkle (1.26.0)
+
+DEPENDENCIES:
+  - MASShortcut
+  - Sparkle
+
+SPEC REPOS:
+  trunk:
+    - MASShortcut
+    - Sparkle
+
+SPEC CHECKSUMS:
+  MASShortcut: d9e4909e878661cc42877cc9d6efbe638273ab57
+  Sparkle: d56d028f4b0c123577825f5d1004f6140d77f90e
+
+PODFILE CHECKSUM: 5a77dc05db6fa97f1177ed8ef7aadf1cde1b9853
+
+COCOAPODS: 1.10.1
