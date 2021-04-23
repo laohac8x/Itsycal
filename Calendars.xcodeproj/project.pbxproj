@@ -10,6 +10,7 @@
 		091A65D52567BCB1004FF099 /* CalendarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091A65D42567BCB1004FF099 /* CalendarUI.swift */; };
 		091A65D72567BD83004FF099 /* CalendarUI++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091A65D62567BD83004FF099 /* CalendarUI++.swift */; };
 		092BD61A25662600005AFC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092BD61925662600005AFC86 /* AppDelegate.swift */; };
+		0954F41B263152FE0023F0AA /* VNCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F41A263152FE0023F0AA /* VNCalendar.swift */; };
 		09CF3A6A256626AB0040D77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF3A63256626AB0040D77E /* Assets.xcassets */; };
 		09CF3A6D256626AB0040D77E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3A69256626AB0040D77E /* MainViewController.swift */; };
 		09CF3A73256628710040D77E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF3A72256628710040D77E /* Colors.xcassets */; };
@@ -20,13 +21,13 @@
 		09CF3AB825662C300040D77E /* MoLoginItem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09CF3A7D256629690040D77E /* MoLoginItem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		09CF3AB925662C320040D77E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CF3A7E256629690040D77E /* Sparkle.framework */; };
 		09CF3ABA25662C320040D77E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09CF3A7E256629690040D77E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09CF3ABF25662DA30040D77E /* SBCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3ABE25662DA30040D77E /* SBCalendar.swift */; };
 		09CF3AC1256645750040D77E /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3AC0256645750040D77E /* AppContext.swift */; };
 		09CF3AC3256646160040D77E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3AC2256646160040D77E /* Constants.swift */; };
 		09CF3AC625664C9B0040D77E /* ObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3AC525664C9B0040D77E /* ObjectiveC.m */; };
 		09CF3ACA256661F60040D77E /* LHDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3AC9256661F60040D77E /* LHDate.swift */; };
 		09CF3ACC256668B20040D77E /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3ACB256668B20040D77E /* Date+Ex.swift */; };
 		09CF3ACE25666AC60040D77E /* CalendarUI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF3ACD25666AC60040D77E /* CalendarUI+Extensions.swift */; };
+		09E9C10E2632C73E002DB8DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E9C10D2632C73E002DB8DF /* Extensions.swift */; };
 		118AA7A643DD9B80182E55A8 /* Pods_Calendars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA3DC1A68AEAB809607A996 /* Pods_Calendars.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		092BD61625662600005AFC86 /* Calendars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		092BD61925662600005AFC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		092BD62325662602005AFC86 /* Calendars.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calendars.entitlements; sourceTree = "<group>"; };
+		0954F41A263152FE0023F0AA /* VNCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VNCalendar.swift; sourceTree = "<group>"; };
+		0954F41C263153F10023F0AA /* SBCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCalendar.h; sourceTree = "<group>"; };
 		09CF3A63256626AB0040D77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CF3A64256626AB0040D77E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CF3A69256626AB0040D77E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +64,6 @@
 		09CF3A7D256629690040D77E /* MoLoginItem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoLoginItem.framework; path = _frameworks/MoLoginItem.framework; sourceTree = SOURCE_ROOT; };
 		09CF3A7E256629690040D77E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = _frameworks/Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		09CF3A7F256629690040D77E /* MASShortcut.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MASShortcut.framework; path = _frameworks/MASShortcut.framework; sourceTree = SOURCE_ROOT; };
-		09CF3ABE25662DA30040D77E /* SBCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCalendar.swift; sourceTree = "<group>"; };
 		09CF3AC0256645750040D77E /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 		09CF3AC2256646160040D77E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		09CF3AC425664C9A0040D77E /* Calendars-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calendars-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		09CF3AC9256661F60040D77E /* LHDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHDate.swift; sourceTree = "<group>"; };
 		09CF3ACB256668B20040D77E /* Date+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
 		09CF3ACD25666AC60040D77E /* CalendarUI+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalendarUI+Extensions.swift"; sourceTree = "<group>"; };
+		09E9C10D2632C73E002DB8DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7EA3DC1A68AEAB809607A996 /* Pods_Calendars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B082E88F7E47E39AA4C70E41 /* Pods-Calendars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendars.release.xcconfig"; path = "Target Support Files/Pods-Calendars/Pods-Calendars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,13 +173,14 @@
 		09CF3ABB25662D680040D77E /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				09CF3ABE25662DA30040D77E /* SBCalendar.swift */,
 				09CF3AC0256645750040D77E /* AppContext.swift */,
 				09CF3AC2256646160040D77E /* Constants.swift */,
 				09CF3AC725664CC00040D77E /* ObjectiveC.h */,
 				09CF3AC525664C9B0040D77E /* ObjectiveC.m */,
 				09CF3AC425664C9A0040D77E /* Calendars-Bridging-Header.h */,
 				09CF3ACB256668B20040D77E /* Date+Ex.swift */,
+				0954F41C263153F10023F0AA /* SBCalendar.h */,
+				09E9C10D2632C73E002DB8DF /* Extensions.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -195,6 +199,7 @@
 				091A65D42567BCB1004FF099 /* CalendarUI.swift */,
 				091A65D62567BD83004FF099 /* CalendarUI++.swift */,
 				09CF3ACD25666AC60040D77E /* CalendarUI+Extensions.swift */,
+				0954F41A263152FE0023F0AA /* VNCalendar.swift */,
 			);
 			path = LHCalendar;
 			sourceTree = "<group>";
@@ -352,12 +357,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				09CF3AC3256646160040D77E /* Constants.swift in Sources */,
+				0954F41B263152FE0023F0AA /* VNCalendar.swift in Sources */,
 				092BD61A25662600005AFC86 /* AppDelegate.swift in Sources */,
 				091A65D72567BD83004FF099 /* CalendarUI++.swift in Sources */,
 				09CF3ACA256661F60040D77E /* LHDate.swift in Sources */,
 				09CF3AC1256645750040D77E /* AppContext.swift in Sources */,
-				09CF3ABF25662DA30040D77E /* SBCalendar.swift in Sources */,
 				09CF3A6D256626AB0040D77E /* MainViewController.swift in Sources */,
+				09E9C10E2632C73E002DB8DF /* Extensions.swift in Sources */,
 				09CF3ACE25666AC60040D77E /* CalendarUI+Extensions.swift in Sources */,
 				09CF3ACC256668B20040D77E /* Date+Ex.swift in Sources */,
 				09CF3AC625664C9B0040D77E /* ObjectiveC.m in Sources */,

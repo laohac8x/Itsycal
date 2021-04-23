@@ -10,7 +10,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SwiftyObject: NSObject
+
 + (void)swiftyInitialize;
+
 @end
 
 #endif /* ObjectiveC_h */
